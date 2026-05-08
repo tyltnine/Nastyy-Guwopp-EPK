@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official electronic press kit for Nastyy Guwopp — Columbia, Missouri hip-hop artist." />
+  <meta property="og:title" content="Nastyy Guwopp | Official EPK" />
+  <meta property="og:description" content="Street luxury, professional, otherworldly EPK for Nastyy Guwopp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/nastyy-guwopp-hero.jpeg" />
+  <title>Nastyy Guwopp | Official EPK</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #050506;
+      --bg-2: #0b0b0e;
+      --panel: rgba(255,255,255,.065);
+      --panel-2: rgba(255,255,255,.1);
+      --line: rgba(255,255,255,.16);
+      --text: #f6f1e8;
+      --muted: #b8afa3;
+      --gold: #d8a84d;
+      --gold-2: #ffe4a0;
+      --red: #e01825;
+      --ice: #c7fff6;
+      --shadow: 0 24px 90px rgba(0,0,0,.58);
+      --radius: 28px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 16% 14%, rgba(224,24,37,.22), transparent 28%),
+        radial-gradient(circle at 88% 8%, rgba(216,168,77,.18), transparent 31%),
+        radial-gradient(circle at 70% 78%, rgba(199,255,246,.09), transparent 25%),
+        linear-gradient(180deg, #020203 0%, #09090b 38%, #030304 100%);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .11;
+      z-index: 999;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E");
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      backdrop-filter: blur(18px);
+      background: rgba(5,5,6,.62);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-family: "Bebas Neue", sans-serif;
+      letter-spacing: .12em;
+      font-size: 1.55rem;
+      line-height: 1;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      color: var(--muted);
+      font-size: .78rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .nav-links a:hover { color: var(--gold-2); }
+
+    .menu-toggle {
+      display: none;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 12px;
+      font-weight: 900;
+    }
+
+    .hero {
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      position: relative;
+      padding: 110px 22px 70px;
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background: linear-gradient(90deg, rgba(0,0,0,.9), rgba(0,0,0,.55), rgba(0,0,0,.8)), url('assets/images/nastyy-guwopp-hero.jpeg') center 20% / cover no-repeat;
+      transform: scale(1.02);
+    }
+
+    .hero-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.88));
+    }
+
+    .hero-grid {
+      width: min(var(--max), 100%);
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 40px;
+      align-items: end;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--gold-2);
+      text-transform: uppercase;
+      letter-spacing: .22em;
+      font-size: .72rem;
+      font-weight: 900;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 42px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    h1 {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(4.6rem, 13vw, 12rem);
+      line-height: .78;
+      margin: 0;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      text-shadow: 0 16px 50px rgba(0,0,0,.6);
+    }
+
+    .tagline {
+      max-width: 760px;
+      margin: 28px 0 0;
+      font-size: clamp(1.05rem, 2vw, 1.45rem);
+      line-height: 1.55;
+      color: #f2e8d7;
+      font-weight: 600;
+    }
+
+    .hero-panel {
+      padding: 26px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: var(--radius);
+      background: linear-gradient(145deg, rgba(255,255,255,.12), rgba(255,255,255,.035));
+      box-shadow: var(--shadow);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .stat {
+      padding: 18px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 20px;
+      background: rgba(0,0,0,.28);
+    }
+
+    .stat strong {
+      display: block;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 2.25rem;
+      letter-spacing: .04em;
+      color: var(--gold-2);
+    }
+
+    .stat span { color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 800; }
+
+    .btn-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 0 22px;
+      border-radius: 999px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: .74rem;
+      border: 1px solid var(--line);
+      transition: transform .22s ease, background .22s ease, border-color .22s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: linear-gradient(135deg, var(--gold), #6d4314); color: #080603; border-color: rgba(255,228,160,.55); }
+    .btn-secondary { background: rgba(255,255,255,.08); color: var(--text); }
+    .btn-red { background: linear-gradient(135deg, var(--red), #5e070c); color: white; border-color: rgba(255,255,255,.16); }
+
+    section { padding: 100px 22px; }
+    .wrap { width: min(var(--max), 100%); margin: 0 auto; }
+    .section-head { margin-bottom: 34px; display: flex; justify-content: space-between; gap: 22px; align-items: end; }
+    .section-head h2 {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(3rem, 7vw, 6rem);
+      line-height: .9;
+      margin: 0;
+      letter-spacing: .03em;
+    }
+    .section-head p { margin: 0; max-width: 560px; color: var(--muted); line-height: 1.7; }
+
+    .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 26px; align-items: stretch; }
+    .photo-card, .content-card, .music-card, .video-card, .show-card, .booking-card {
+      border: 1px solid rgba(255,255,255,.14);
+      background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.035));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .photo-card img { height: 100%; width: 100%; object-fit: cover; min-height: 620px; }
+    .content-card { padding: clamp(26px, 4vw, 48px); }
+    .content-card h3 { font-family: "Playfair Display", serif; font-size: clamp(1.9rem, 4vw, 3.4rem); line-height: 1.05; margin: 0 0 22px; }
+    .content-card p { color: #d7cec0; line-height: 1.82; font-size: 1.02rem; }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .pill { border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: 9px 13px; color: var(--gold-2); background: rgba(0,0,0,.26); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 900; }
+
+    .music-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    .music-card { padding: 24px; }
+    .music-card h3 { margin: 0 0 16px; font-size: 1rem; text-transform: uppercase; letter-spacing: .16em; color: var(--gold-2); }
+    iframe { width: 100%; border: 0; border-radius: 18px; }
+
+    .track-list { display: grid; gap: 12px; }
+    .track {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(0,0,0,.3);
+      border: 1px solid rgba(255,255,255,.11);
+    }
+    .track strong { display: block; }
+    .track span { color: var(--muted); font-size: .88rem; }
+    .track b { color: var(--gold-2); font-family: "Bebas Neue", sans-serif; font-size: 1.8rem; letter-spacing: .04em; }
+
+    .video-shell { position: relative; }
+    .video-stage { aspect-ratio: 16 / 9; background: #000; border-radius: 24px; overflow: hidden; border: 1px solid rgba(255,255,255,.16); }
+    .video-stage iframe { height: 100%; border-radius: 0; }
+    .video-controls { display: flex; justify-content: space-between; align-items: center; gap: 14px; margin-top: 16px; }
+    .video-title { color: var(--gold-2); font-weight: 900; letter-spacing: .08em; text-transform: uppercase; font-size: .9rem; }
+    .round { width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line); background: rgba(255,255,255,.08); color: var(--text); cursor: pointer; font-size: 1.2rem; }
+
+    .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .gallery-item { position: relative; border-radius: 24px; overflow: hidden; min-height: 360px; border: 1px solid rgba(255,255,255,.12); cursor: pointer; background: #111; }
+    .gallery-item:first-child { grid-column: span 2; grid-row: span 2; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease, filter .4s ease; }
+    .gallery-item:hover img { transform: scale(1.045); filter: contrast(1.08); }
+    .gallery-item::after { content: "View"; position: absolute; inset: auto 16px 16px auto; color: #080603; background: var(--gold-2); padding: 8px 12px; border-radius: 999px; font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 900; opacity: 0; transform: translateY(8px); transition: .2s ease; }
+    .gallery-item:hover::after { opacity: 1; transform: translateY(0); }
+
+    .show-card { padding: 32px; display: flex; justify-content: space-between; gap: 22px; align-items: center; }
+    .show-card h3 { margin: 0 0 8px; font-size: 1.3rem; }
+    .show-card p { margin: 0; color: var(--muted); line-height: 1.6; }
+
+    .press-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .quote { padding: 28px; border-radius: var(--radius); border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.06); }
+    .quote p { margin: 0; line-height: 1.7; color: #e9dfce; font-size: 1.02rem; }
+    .quote span { display: block; margin-top: 18px; color: var(--gold-2); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 900; }
+
+    .booking-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 22px; }
+    .booking-card { padding: 32px; }
+    .booking-card h3 { margin: 0 0 14px; font-size: 1.7rem; }
+    .booking-card p { color: var(--muted); line-height: 1.7; }
+    .contact-line { display: block; margin-top: 18px; color: var(--gold-2); font-weight: 900; word-break: break-word; }
+    form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .full { grid-column: 1 / -1; }
+    label { display: block; margin-bottom: 8px; color: var(--muted); font-weight: 800; font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; }
+    input, textarea, select {
+      width: 100%;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 16px;
+      background: rgba(0,0,0,.32);
+      color: var(--text);
+      min-height: 50px;
+      padding: 14px;
+      font: inherit;
+      outline: none;
+    }
+    textarea { min-height: 128px; resize: vertical; }
+    input:focus, textarea:focus, select:focus { border-color: rgba(255,228,160,.7); box-shadow: 0 0 0 4px rgba(216,168,77,.12); }
+
+    .socials { display: flex; flex-wrap: wrap; gap: 12px; }
+    .socials a { padding: 14px 16px; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.06); border-radius: 999px; color: var(--text); font-weight: 900; letter-spacing: .12em; text-transform: uppercase; font-size: .74rem; }
+    .socials a:hover { background: rgba(216,168,77,.16); color: var(--gold-2); }
+
+    footer { padding: 48px 22px; border-top: 1px solid rgba(255,255,255,.1); color: var(--muted); }
+    .footer-inner { width: min(var(--max), 100%); margin: 0 auto; display: flex; justify-content: space-between; gap: 22px; align-items: center; }
+    .footer-logo { font-family: "Bebas Neue", sans-serif; font-size: 2rem; letter-spacing: .1em; color: var(--text); }
+
+    .lightbox { position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,.9); display: none; align-items: center; justify-content: center; padding: 20px; }
+    .lightbox.active { display: flex; }
+    .lightbox img { max-height: 90svh; border-radius: 18px; box-shadow: var(--shadow); }
+    .close-lightbox { position: fixed; top: 18px; right: 18px; width: 48px; height: 48px; border-radius: 50%; border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.08); color: white; font-size: 2rem; cursor: pointer; }
+
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 900px) {
+      .menu-toggle { display: inline-flex; }
+      .nav-links { position: absolute; top: 70px; left: 16px; right: 16px; flex-direction: column; align-items: stretch; padding: 18px; background: rgba(5,5,6,.95); border: 1px solid var(--line); border-radius: 20px; display: none; }
+      .nav-links.open { display: flex; }
+      .hero-grid, .about-grid, .music-grid, .booking-grid { grid-template-columns: 1fr; }
+      .hero-panel { display: none; }
+      .section-head { display: block; }
+      .section-head p { margin-top: 14px; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .gallery-item:first-child { grid-column: span 2; }
+      .press-grid { grid-template-columns: 1fr; }
+      .show-card, .footer-inner { display: block; }
+      form { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 540px) {
+      section { padding: 74px 16px; }
+      .hero { padding-left: 16px; padding-right: 16px; }
+      .stats { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .gallery-item:first-child { grid-column: auto; }
+      .gallery-item { min-height: 420px; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a class="brand" href="#top">Nastyy Guwopp</a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu">Menu</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#music">Music</a>
+        <a href="#videos">Videos</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#booking">Booking</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Official Electronic Press Kit</span>
+        <h1>Nastyy<br>Guwopp</h1>
+        <p class="tagline">Columbia, Missouri energy with a street-luxury presence — raw, cinematic, polished, and built for rooms that need the music to feel larger than life.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#music">Listen Now</a>
+          <a class="btn btn-red" href="#videos">Watch Videos</a>
+          <a class="btn btn-secondary" href="#booking">Book / Contact</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Artist quick facts">
+        <span class="eyebrow">Quick Facts</span>
+        <div class="stats">
+          <div class="stat"><strong>MO</strong><span>Columbia Base</span></div>
+          <div class="stat"><strong>47</strong><span>YouTube Videos</span></div>
+          <div class="stat"><strong>2026</strong><span>EPK Ready</span></div>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-secondary" href="https://open.spotify.com/artist/57AZybXe4hRr2qX34ojYXy?si=Vj-sXwAUTvOjQe60KVJvJQ" target="_blank" rel="noopener">Spotify</a>
+          <a class="btn btn-secondary" href="https://music.apple.com/us/artist/nastyy-guwopp/1531182965" target="_blank" rel="noopener">Apple Music</a>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>The Artist</h2>
+          <p>A premium EPK built for booking, media, collaborations, and brand-level presentation.</p>
+        </div>
+        <div class="about-grid">
+          <div class="photo-card"><img src="assets/images/nastyy-guwopp-portrait-2.jpeg" alt="Nastyy Guwopp artist portrait"></div>
+          <div class="content-card">
+            <span class="eyebrow">Columbia, Missouri</span>
+            <h3>Street presence. Luxury frame. Otherworldly delivery.</h3>
+            <p>Nastyy Guwopp is a Columbia, Missouri artist shaping a sound and image built around confidence, pressure, ambition, and cinematic street energy. His presentation moves like a statement piece: heavy, direct, polished, and impossible to ignore.</p>
+            <p>Across releases, visuals, and social presence, Nastyy Guwopp brings the kind of independent artist identity that feels ready for bigger stages — music-first, image-aware, and built for fans who want authenticity with star-level execution.</p>
+            <div class="pill-row">
+              <span class="pill">Hip-Hop / Rap</span>
+              <span class="pill">Street Luxury</span>
+              <span class="pill">Midwest</span>
+              <span class="pill">Visual Artist</span>
+              <span class="pill">Professional EPK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="music" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Music</h2>
+          <p>Stream the catalog, feature the strongest records, and give promoters a clean way to hear the sound fast.</p>
+        </div>
+        <div class="music-grid">
+          <div class="music-card">
+            <h3>Spotify Artist Player</h3>
+            <iframe style="border-radius:18px" src="https://open.spotify.com/embed/artist/57AZybXe4hRr2qX34ojYXy?utm_source=generator" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          <div class="music-card">
+            <h3>Featured Tracks</h3>
+            <div class="track-list">
+              <a class="track" href="https://music.apple.com/us/artist/nastyy-guwopp/1531182965" target="_blank" rel="noopener"><span><strong>Party Wit Ya Friends</strong><span>feat. Nastyy Guwopp & Rebo Stacks</span></span><b>01</b></a>
+              <a class="track" href="https://music.apple.com/us/artist/nastyy-guwopp/1531182965" target="_blank" rel="noopener"><span><strong>Rich Baby Daddy</strong><span>feat. KoKo Boomin</span></span><b>02</b></a>
+              <a class="track" href="https://music.apple.com/us/artist/nastyy-guwopp/1531182965" target="_blank" rel="noopener"><span><strong>2nd Time Out</strong><span>Single</span></span><b>03</b></a>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="https://music.apple.com/us/artist/nastyy-guwopp/1531182965" target="_blank" rel="noopener">Apple Music</a>
+              <a class="btn btn-secondary" href="https://open.spotify.com/artist/57AZybXe4hRr2qX34ojYXy?si=Vj-sXwAUTvOjQe60KVJvJQ" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="videos" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Videos</h2>
+          <p>YouTube carousel built so more videos can be added later by editing one JavaScript array.</p>
+        </div>
+        <div class="video-card" style="padding:24px;">
+          <div class="video-shell">
+            <div class="video-stage" id="videoStage"></div>
+            <div class="video-controls">
+              <button class="round" id="prevVideo" type="button" aria-label="Previous video">‹</button>
+              <div class="video-title" id="videoTitle">Loading video…</div>
+              <button class="round" id="nextVideo" type="button" aria-label="Next video">›</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Gallery</h2>
+          <p>High-impact press photos ready for social, promo flyers, booking packets, and media use.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="assets/images/nastyy-guwopp-hero.jpeg" alt="Nastyy Guwopp press photo 1"></div>
+          <div class="gallery-item"><img src="assets/images/nastyy-guwopp-portrait-1.jpeg" alt="Nastyy Guwopp press photo 2"></div>
+          <div class="gallery-item"><img src="assets/images/nastyy-guwopp-portrait-2.jpeg" alt="Nastyy Guwopp press photo 3"></div>
+          <div class="gallery-item"><img src="assets/images/nastyy-guwopp-portrait-3.jpeg" alt="Nastyy Guwopp press photo 4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shows" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Shows</h2>
+          <p>No public dates are currently announced.</p>
+        </div>
+        <div class="show-card">
+          <div>
+            <h3>Booking Available</h3>
+            <p>For performances, private events, collaborations, interviews, and media opportunities, use the booking contact below.</p>
+          </div>
+          <a class="btn btn-primary" href="#booking">Start Inquiry</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="press" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Press Notes</h2>
+          <p>Positioning copy for promoters, bloggers, venues, and collaborators.</p>
+        </div>
+        <div class="press-grid">
+          <div class="quote"><p>“A Columbia, Missouri artist with a visual identity that feels bold, expensive, and built for attention.”</p><span>Artist Positioning</span></div>
+          <div class="quote"><p>“Nastyy Guwopp brings street-level confidence into a polished, cinematic frame.”</p><span>EPK Summary</span></div>
+          <div class="quote"><p>“Music, visuals, and presence move together — raw enough for the streets, clean enough for serious rooms.”</p><span>Brand Direction</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="reveal">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Booking</h2>
+          <p>Use this section for performance inquiries, media requests, collaborations, and professional opportunities.</p>
+        </div>
+        <div class="booking-grid">
+          <div class="booking-card">
+            <h3>Contact</h3>
+            <p>For booking, press, music, and collaboration inquiries:</p>
+            <a class="contact-line" href="mailto:Deeforrest42@gmail.com">Deeforrest42@gmail.com</a>
+            <div class="pill-row">
+              <span class="pill">Booking</span>
+              <span class="pill">Press</span>
+              <span class="pill">Features</span>
+              <span class="pill">Visuals</span>
+            </div>
+            <div class="socials" style="margin-top:26px;">
+              <a href="https://www.instagram.com/official_nastyyguwopp?igsh=MWR1YTM4MGY0YTBxZA==" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://youtube.com/@official_nastyyguwopp?si=hFCGM7_EZTGibtZb" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/artist/57AZybXe4hRr2qX34ojYXy?si=Vj-sXwAUTvOjQe60KVJvJQ" target="_blank" rel="noopener">Spotify</a>
+              <a href="https://music.apple.com/us/artist/nastyy-guwopp/1531182965" target="_blank" rel="noopener">Apple</a>
+            </div>
+          </div>
+          <div class="booking-card">
+            <form id="bookingForm">
+              <div><label for="name">Name</label><input id="name" name="name" required></div>
+              <div><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+              <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel"></div>
+              <div><label for="type">Inquiry Type</label><select id="type" name="type"><option>Booking</option><option>Feature</option><option>Press / Interview</option><option>Video / Creative</option><option>Other</option></select></div>
+              <div class="full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about the event, opportunity, date, location, budget, and any important details."></textarea></div>
+              <div class="full"><button class="btn btn-primary" type="submit">Open Email Inquiry</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Nastyy Guwopp</div>
+      <div>© <span id="year"></span> Nastyy Guwopp. Official EPK.</div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" type="button" aria-label="Close image">×</button>
+    <img src="" alt="Expanded press photo" id="lightboxImg">
+  </div>
+
+  <script>
+    const videos = [
+      { id: 'yOLQ9ef9bcs', title: 'Nastyy Guwopp x Tweezy — Do It' },
+      { id: '6jUAqSYKBjc', title: 'Featured YouTube Video 02' },
+      { id: 'cIBGSO4LNVg', title: 'Featured YouTube Video 03' }
+      // Add more later like this:
+      // { id: 'YOUTUBE_VIDEO_ID', title: 'Video Title' }
+    ];
+
+    let currentVideo = 0;
+    const stage = document.getElementById('videoStage');
+    const title = document.getElementById('videoTitle');
+
+    function renderVideo(index) {
+      const video = videos[index];
+      stage.innerHTML = `<iframe src="https://www.youtube.com/embed/${video.id}" title="${video.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>`;
+      title.textContent = video.title;
+    }
+
+    document.getElementById('prevVideo').addEventListener('click', () => {
+      currentVideo = (currentVideo - 1 + videos.length) % videos.length;
+      renderVideo(currentVideo);
+    });
+
+    document.getElementById('nextVideo').addEventListener('click', () => {
+      currentVideo = (currentVideo + 1) % videos.length;
+      renderVideo(currentVideo);
+    });
+
+    renderVideo(currentVideo);
+
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: .12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    document.querySelectorAll('.gallery-item img').forEach(img => {
+      img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+        lightbox.setAttribute('aria-hidden', 'false');
+      });
+    });
+    document.querySelector('.close-lightbox').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      lightbox.setAttribute('aria-hidden', 'true');
+      lightboxImg.src = '';
+    }
+
+    document.getElementById('bookingForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const data = new FormData(e.currentTarget);
+      const subject = encodeURIComponent(`Nastyy Guwopp EPK Inquiry — ${data.get('type')}`);
+      const body = encodeURIComponent(`Name: ${data.get('name')}\nEmail: ${data.get('email')}\nPhone: ${data.get('phone')}\nInquiry Type: ${data.get('type')}\n\nMessage:\n${data.get('message')}`);
+      window.location.href = `mailto:Deeforrest42@gmail.com?subject=${subject}&body=${body}`;
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
